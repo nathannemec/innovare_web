@@ -1,0 +1,285 @@
+@font-face {
+    font-family: ProximaNova; /* deklarace fontu */
+    src: url("../fonts/ProximaNovaSoft-Regular.ttf"); /* propojení na umístění souboru */
+}
+html {
+	font-family: ProximaNova;
+}
+#main_header {
+	border-bottom: solid 2px #f1f1e9;
+	font-family: ProximaNova;
+	overflow: hidden;
+	padding: 30px 0;
+}
+#main_header .menu-icon {
+	float: left;
+}
+#main_header .contact {
+	float: right;
+}
+#main_header .contact p {
+	display: inline-block;
+	color: #9b9fa1;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 0 10px;
+	padding: 0;
+	vertical-align: bottom;
+	font-size: 16.14px;
+}
+#main_header .contact .contact-icon {
+	display: inline-block;
+}
+.heading {
+	text-align: center;
+	font-family: ProximaNova;
+}
+.heading h1 {
+	padding-top: 120px;
+	font-size: 38px;
+	color: #2e3039;
+}
+.heading h1 .name {
+	font-weight: 600;
+}
+.heading .subheading {
+	color: #9b9fa1;
+	font-size: 22px;
+	padding: 15px;
+	padding-bottom: 65px;
+}
+.phone-side {
+	overflow: hidden;
+}
+.phone {
+	float: right;
+	padding: 0 15px;
+	padding-bottom: 0;
+}
+
+#teachme_about {
+	font-family: ProximaNova;
+}
+#teachme_about h2 {
+	font-size: 26px;
+	margin: 0;
+	padding: 0;
+	  padding-top: 10px;
+}
+#teachme_about h2 .tm {
+	font-size: 26px;
+	vertical-align: top;
+}
+#teachme_about .slogan {
+	font-size: 18px;
+	color: #9b9fa1;
+	margin: 10px 0;
+}
+#teachme_about ul {
+	list-style-image: url('../img/tick.png');
+	font-size: 18px;
+	padding: 0;
+	padding-top: 10px;
+	padding-left: 60px;
+}
+#teachme_about ul li {
+	margin: 14px 0;
+}
+#teachme_about .checkout_btn {
+	background: transparent;
+	border: 2px #5856d6 solid;
+	padding: 10px 25px;
+	color: #5856d6;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	margin: 23px 10px;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-o-transition: .2s;
+}
+#teachme_about .checkout_btn:hover {
+	background-color: #5856d6;
+	color: #FFF;
+}
+.border-bottom {
+	border-bottom: solid 2px #f1f1e9;
+}
+.projects_nav {
+	text-align: center;
+	padding: 40px 0;
+}
+.projects_nav .proj {
+	margin: 5px;
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	position: relative;
+	cursor: pointer;
+	vertical-align: top;
+	text-align: center;
+}
+.projects_nav .proj .tt {
+	background-color: #2e3039;
+	padding: 15px 0;
+	width: 120px;
+	display: block;
+	margin: 0;
+	position: absolute;
+	left: 50%;
+	top: -20px;
+	margin-left: -60px;
+	color: #FFF;
+	text-align: center;
+	border-radius: 7px;
+	opacity: 0;
+	transition: .3s;
+	font-size: 16px;
+}
+.tt_down {
+	width: 12px;
+	height: 8px;
+	position: absolute;
+	left: 50%;
+	margin-left: -6px;
+	bottom: -8px;
+}
+.projects_nav .proj:hover .tt {
+	opacity: 1;
+	top: -70px;
+}
+.c_container {
+	display: inline-block;
+	height: 180px;
+	width: 180px;
+	position: relative;
+	margin: 0 15px;
+	
+}
+.overlay {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 180px;
+	width: 180px;
+}
+.overlay .c_middle {
+	position: absolute;
+	height: 164px;
+	width: 164px;
+	left: 50%;
+	top: 50%;
+	margin-left: -82px;
+	margin-top: -82px;
+	border: 8px solid #FFF;
+	border-radius: 50%;
+	background-color: #FFF;
+	text-align: center;
+	vertical-align: center;
+	line-height: 148px;
+	font-size: 32px;
+	color: #9b9fa1;
+	transition: .3s;
+}
+.char_headline {
+	text-align: center;
+	font-size: 18px;
+	color: #9b9fa1;
+	padding: 25px 0;
+	transition: .3s;
+}
+.c_container:hover .overlay .c_middle {
+	color: #FFF;
+}
+.c_container:hover .char_headline {
+	color: #000;
+}
+.c_container:hover .overlay #pieChar1_mid {
+	background-color: #5856d6;
+}
+.c_container:hover .overlay #pieChar2_mid {
+	background-color: #ff9500;
+}
+.c_container:hover .overlay #pieChar3_mid {
+	background-color: #4cd964;
+}
+.c_procenta {
+	text-indent: 7px;
+}
+
+.middle_padding {
+	padding: 80px 0;
+}
+.char_table {
+	margin-left: 20px;
+	height: 180px;
+}
+.char_table tr td {
+	//padding: 6px 0;
+}
+.char_table tr td:first-of-type {
+	color: #9b9fa1;
+	padding-right: 20px;
+	text-align: right;
+	font-weight: 600;
+}
+.char_table tr td:last-of-type {
+	width: 320px;
+	position: relative;
+}
+.char_table .bg {
+	width: 100%;
+	height: 30px;
+	background-color: #f1f1e9;
+	border-radius: 8px;
+}
+.char_table .bar {
+	background-color: #ff2d55;
+	height: 100%;
+	border-radius: 8px;
+}
+.headline_row {
+	padding-top: 80px;
+}
+.num {
+	display: inline-block;
+	font-size: 28px;
+	color: #4cd964;
+	border-right: solid 2px #f1f1e9;
+	padding: 0 20px;
+}
+.container_headline {
+	display: inline-block;
+	font-size: 28px;
+	padding: 0 20px;
+}
+#main_footer {
+	padding: 25px 0;
+	display: block;
+
+}
+.copyright {
+	color: #9b9fa1;
+	font-size: 16px;
+	padding: 0;
+	margin: 0;
+	display: block;
+	float: left;
+}
+
+@media screen and (max-width: 992px) {
+	.phone {
+		float: none;
+		width: 256px;
+		margin: 0 auto;
+		display: block;
+	}
+	#teachme_about h2 {
+		text-align: center;
+		padding-top: 30px;
+	}
+	#teachme_about .slogan {
+		text-align: center;
+	}
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="uft-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Innovare</title>
+
+		
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/Chart.min.js"></script>
+		<script type="text/javascript" src="js/charts.js"></script>
+		<script type="text/javascript" src="js/canvasjs.min.js"></script>
+
+		<!-- bootstrap -->
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/pie.css">
+
+	</head>
+	<body>
+		<div class="container" id="top">
+			<div class="row">
+				<div class="col-md-12">
+					<header id="main_header">
+						<img src="img/icon_menu.png" class="menu-icon">
+						<div class="contact">
+							<p>Something we can help you with?</p>
+							<img src="img/icon_email.png">
+						</div>
+					</header>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="heading">
+						<h1>We are <span class="name">Innovare</span> software</h1>
+						<p class="subheading">Some really interesting facts</p>
+					</div>
+				</div>
+			</div>
+			<div class="row border-bottom">
+				<div class="col-md-6 phone-side">
+					<img src="img/phone.jpg" class="phone">
+				</div>
+				<div class="col-md-6" id="teachme_about">
+					<h2>TeachMe<span class="tm">&#8482;</span></h2>
+					<p class="slogan">The best way how to learn effectivly</p>
+					<ul>
+						<li>Really interesting fact about something</li>
+						<li>There is mutch more to reveal</li>
+					</ul>
+					<button class="checkout_btn">Check out</button>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row border-bottom">
+				<div class="col-md-12 projects_nav">
+					<div class="proj" style="background-image: url('img/project_1.png');">
+						<p class="tt">
+							TeachMe
+							<img class="tt_down" src="img/tt.png">
+						</p>
+					</div>
+					<div class="proj" style="background-image: url('img/project_2.png');">
+						<p class="tt">
+							TeachMe
+							<img class="tt_down" src="img/tt.png">
+						</p>
+					</div>
+					<div class="proj" style="background-image: url('img/project_3.png');">
+						<p class="tt">
+							TeachMe
+							<img class="tt_down" src="img/tt.png">
+						</p>
+					</div>
+					<div class="proj" style="background-image: url('img/project_comming.png');">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row headline_row">
+				<div class="col-md-12">
+					<div class="num">1</div><h3 class="container_headline">The numbers speak for themself</h3>
+				</div>
+			</div>
+			<div class="row middle_padding">
+				<div class="col-md-7">
+					<div class="c_container">
+						<canvas id="pieChart1" width="180" height="180"></canvas>
+						<div class="overlay">
+							<div class="c_middle c_procenta" id="pieChar1_mid">75%</div>
+						</div>
+						<header class="char_headline">Stunning fact</header>
+					</div>
+					<div class="c_container">
+						<canvas id="pieChart2" width="180" height="180"></canvas>
+						<div class="overlay">
+							<div class="c_middle" id="pieChar2_mid">250</div>
+						</div>
+						<header class="char_headline">Finished</header>
+					</div>
+					<div class="c_container">
+						<canvas id="pieChart3" width="180" height="180"></canvas>
+						<div class="overlay">
+							<div class="c_middle" id="pieChar3_mid">1/4</div>
+						</div>
+						<header class="char_headline">Chance to win</header>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<table class="char_table">
+						<tr>
+							<td>Michael</td>
+							<td><div class="bg"><div class="bar" style="width: 40%;"></div></div></td>
+						</tr>
+						<tr>
+							<td>Lucy</td>
+							<td><div class="bg"><div class="bar" style="width: 80%;"></div></div></td>
+						</tr>
+						<tr>
+							<td>David</td>
+							<td><div class="bg"><div class="bar" style="width: 30%;"></div></div></td>
+						</tr>
+						<tr>
+							<td>George</td>
+							<td><div class="bg"><div class="bar" style="width: 50%;"></div></div></td>
+						</tr>
+					</table>
+					<header class="char_headline">Week goals</header>
+				</div>
+			</div>
+			<div class="row border-bottom" style="padding-bottom: 70px;">
+				<div class="col-md-12">
+					<div id="chartContainer" style="height: 500px; width: 100%;"></div>
+					<div style="background-color: #FFF; position: absolute; bottom: 0; width: 100%; height: 15px;"></div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row border-bottom">
+				<div class="col-md-12" style="padding-bottom: 25px;">
+					<footer id="main_footer">
+						<p class="copyright">Copyright &copy; 2015 <a style="color: #000;" href="http://innovare.cz">Innovare</a></p>
+						<a style="float: right; padding:0 5px;" href="http://facebook.com"><img src="img/facebook.png"></a>
+						<a style="float: right; padding:0 5px;" href="http://twitter.com"><img src="img/twitter.png"></a>
+						
+					</footer>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
